@@ -94,10 +94,10 @@ public class ProductController {
             ProductEntity updateProduct = new ProductEntity();
 
             updateProduct.setId(optionalProduct.get().getId());
-            updateProduct.setName(optionalProduct.get().getName());
-            updateProduct.setShort_description(optionalProduct.get().getShort_description());
-            updateProduct.setLong_description(optionalProduct.get().getLong_description());
-            updateProduct.setUnit_price((optionalProduct.get().getUnit_price()));
+            updateProduct.setName(productDTO.getName());
+            updateProduct.setShort_description(productDTO.getShort_description());
+            updateProduct.setLong_description(productDTO.getLong_description());
+            updateProduct.setUnit_price((productDTO.getUnit_price()));
 
             productService.save(updateProduct);
 

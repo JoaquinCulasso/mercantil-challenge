@@ -1,7 +1,5 @@
 package com.ma.pedidos.util;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-
 public class Constant {
 
 

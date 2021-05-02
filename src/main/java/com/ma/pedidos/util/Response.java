@@ -1,11 +1,7 @@
 package com.ma.pedidos.util;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-
-import java.util.HashMap;
-import java.util.Map;
 
 @JsonSerialize
 public class Response {
